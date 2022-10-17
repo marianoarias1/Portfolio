@@ -16,6 +16,16 @@ export const TechContainer=styled.div`
         height: 100%;
         flex-wrap: wrap;
         flex-direction: column;
+        margin-left: 30px;
+    }
+
+    @media (max-width:321px) {
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin-top: 5rem;
     }
 `
 
@@ -29,6 +39,34 @@ export const TitleContainer= styled.div`
         width: 85%;
         height: 10%;
     }
+
+    @media (max-width: 321px) {
+        width: 85%;
+        height: 10%;
+        margin-bottom: 8rem;
+    }
+`
+
+export const AllContainer=styled.div`
+
+@media (max-width: 391px) {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+    }
+        @media (max-width: 321px) {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10rem;
+    }
 `
 
 export const Title=styled.h1`
@@ -37,7 +75,6 @@ export const Title=styled.h1`
     text-align: center;
     letter-spacing: 1px;
     font-weight: 100;
-
 `
 
 export const Separator=styled.div`
@@ -54,7 +91,42 @@ export const Separator=styled.div`
         width: 100%;
         overflow: scroll;
         flex-wrap: wrap;
+        margin-top: 40px;
     }
+
+    @media (max-width: 321px) {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+        overflow: scroll;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+`
+
+export const SeparatorContainer= styled.div`
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    @media (max-width: 391px) {
+        margin-top: 4rem;
+    }
+
+        @media (max-width: 321px) {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    
 `
 
 export const TechIconContiner=styled(motion.div)`
@@ -67,8 +139,17 @@ export const TechIconContiner=styled(motion.div)`
     scroll-behavior: smooth;
 
     @media (max-width: 391px) {
-        height: 90%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    @media (max-width: 321px) {
+        height: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 50px;
     }
 `
 

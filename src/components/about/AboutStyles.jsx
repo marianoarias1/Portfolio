@@ -14,6 +14,11 @@ export const AboutContainer=styled.div`
         justify-content: space-evenly;
         height: 100%;
     }
+
+    @media (max-width:321px) {
+        height: 80%;
+        justify-content: space-evenly;
+    }
 `
 
 export const TitleContainer= styled.div`
@@ -62,6 +67,14 @@ export const TextContainer=styled.div`
         overflow: scroll;
         margin-top: 300px;
     }
+
+    
+    @media (max-width:321px) {
+      height: 40%;
+      width: 70%;
+      overflow: scroll;
+      margin-top: 23rem;
+    }
 `
 
 export const TextAbout=styled.p`
@@ -90,6 +103,12 @@ export const TextAbout=styled.p`
     margin-left: 0px;
     margin-top: 500px;
   }
+
+      
+  @media (max-width:321px) {
+    margin-left: 0px;
+    margin-top: 700px;
+    }
 `
 
 export const ImageContainer=styled.div`
@@ -104,6 +123,13 @@ export const ImageContainer=styled.div`
       height: 40%;
       position: absolute;
       margin-bottom: 100px;
+    }
+
+    @media (max-width:321px) {
+        height: 100%;
+        justify-content: flex-start;
+        align-items: flex-end;
+        position: none;
     }
 `
 

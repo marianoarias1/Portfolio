@@ -13,6 +13,12 @@ export const JobsContainer=styled.div`
         margin-top: 50rem;
         justify-content: space-evenly;
     }
+
+    
+    @media (max-width:321px) {
+        margin-top: 62rem;
+        justify-content: space-evenly;
+    }
 `
 
 export const JobsStyled=styled.div`
@@ -28,7 +34,13 @@ export const JobsStyled=styled.div`
        flex-direction: column;
        justify-content: space-evenly;
        height: 80%;
-    }   
+    }
+
+    @media (max-width:321px) {
+        flex-direction: column;
+       justify-content: space-evenly;
+       height: 105%;
+    }
 `
 
 export const TitleJobsContainer= styled.div`
@@ -108,6 +120,12 @@ export const DescContianer=styled.div`
     @media (max-width:391px) {
         overflow: scroll;
     }
+
+    
+    @media (max-width:391px) {
+        width: 62%;
+    }
+
 `
 export const TitleJobContainer=styled.div`
     width: 100%;
@@ -116,9 +134,11 @@ export const TitleJobContainer=styled.div`
     align-items: center;
 
     @media (max-width:391px) {
-       margin-top: 80px;
+        margin-top: 80px;
     }
-
+    @media (max-width:321px) {
+        margin-top: 150px;
+    }
 `
 export const TitleJob=styled.h2`
     font-family: 'Space Mono', monospace;
