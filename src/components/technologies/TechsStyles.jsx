@@ -9,6 +9,14 @@ export const TechContainer=styled.div`
     align-items: center;
     flex-direction: column;
     scroll-behavior: smooth;
+
+    
+    @media (max-width: 391px) {
+        justify-content: space-evenly;
+        height: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 `
 
 export const TitleContainer= styled.div`
@@ -16,6 +24,11 @@ export const TitleContainer= styled.div`
     height: auto;
     display: flex;
     justify-content: center;
+
+    @media (max-width: 391px) {
+        width: 85%;
+        height: 10%;
+    }
 `
 
 export const Title=styled.h1`
@@ -24,6 +37,7 @@ export const Title=styled.h1`
     text-align: center;
     letter-spacing: 1px;
     font-weight: 100;
+
 `
 
 export const Separator=styled.div`
@@ -32,6 +46,15 @@ export const Separator=styled.div`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+        @media (max-width: 391px) {
+        display: flex;
+        justify-content: space-evenly;
+        height: 40%;
+        width: 100%;
+        overflow: scroll;
+        flex-wrap: wrap;
+    }
 `
 
 export const TechIconContiner=styled(motion.div)`
@@ -42,6 +65,11 @@ export const TechIconContiner=styled(motion.div)`
     align-items: center;
     flex-direction: column;
     scroll-behavior: smooth;
+
+    @media (max-width: 391px) {
+        height: 90%;
+        width: 90%;
+    }
 `
 
 export const ItemStyled=styled.a`

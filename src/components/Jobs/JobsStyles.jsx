@@ -8,6 +8,11 @@ export const JobsContainer=styled.div`
     align-items: center;
     flex-direction: column;
     margin-top: 10%;
+
+    @media (max-width:391px) {
+        margin-top: 50rem;
+        justify-content: space-evenly;
+    }
 `
 
 export const JobsStyled=styled.div`
@@ -18,6 +23,12 @@ export const JobsStyled=styled.div`
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
+
+    @media (max-width:391px) {
+       flex-direction: column;
+       justify-content: space-evenly;
+       height: 80%;
+    }   
 `
 
 export const TitleJobsContainer= styled.div`
@@ -28,6 +39,10 @@ export const TitleJobsContainer= styled.div`
     justify-content: center;
     margin-top: 20%;
     margin-bottom: 40px;
+
+    @media (max-width:391px) {
+        width: 50%;
+    }  
 `
 
 export const TitleJobs=styled.h1`
@@ -89,12 +104,20 @@ export const DescContianer=styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    @media (max-width:391px) {
+        overflow: scroll;
+    }
 `
 export const TitleJobContainer=styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width:391px) {
+       margin-top: 80px;
+    }
 
 `
 export const TitleJob=styled.h2`

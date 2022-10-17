@@ -9,6 +9,11 @@ export const AboutContainer=styled.div`
     flex-wrap: wrap;
     margin-left: 90px;
     scroll-behavior: smooth;
+
+    @media (max-width: 391px) {
+        justify-content: space-evenly;
+        height: 100%;
+    }
 `
 
 export const TitleContainer= styled.div`
@@ -16,6 +21,10 @@ export const TitleContainer= styled.div`
     height: auto;
     display: flex;
     justify-content: center;
+
+    @media (max-width: 391px) {
+        height: 10%;
+    }
 `
 
 export const Title=styled.h1`
@@ -46,6 +55,13 @@ export const TextContainer=styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 391px) {
+        height: 40%;
+        width: 70%;
+        overflow: scroll;
+        margin-top: 300px;
+    }
 `
 
 export const TextAbout=styled.p`
@@ -68,6 +84,12 @@ export const TextAbout=styled.p`
             transform-origin: bottom center;
   }
 }
+
+
+@media (max-width: 391px) {
+    margin-left: 0px;
+    margin-top: 500px;
+  }
 `
 
 export const ImageContainer=styled.div`
@@ -76,6 +98,13 @@ export const ImageContainer=styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 391px) {
+      width: 70%;
+      height: 40%;
+      position: absolute;
+      margin-bottom: 100px;
+    }
 `
 
 export const Image=styled.img`
